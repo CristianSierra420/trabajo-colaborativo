@@ -6,7 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>cristian</h1>
-    <p>jhjhjhjhhjjhjh</p>
+    <div class="contact-container"></div>
+        <h2>Información de Contacto</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> cristiansierra967@gmail.com</p>
+            <p><strong>Teléfono:</strong> +305 3759971</p>
+            <p><strong>Dirección:</strong> av poblado carrera 43 b # 16 – 95, Medellin, Colombia</p>
+        </div>
+
+        <h3>Contáctanos</h3>
+        <form class="contact-form" action="enviar.php" method="post">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Email" required>
+            <textarea name="mensaje" rows="5" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
